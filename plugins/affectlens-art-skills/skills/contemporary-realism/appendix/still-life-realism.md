@@ -1,0 +1,17 @@
+# Still-Life Realism
+
+Still-life realism makes objects from contemporary life the center of emotional and formal analysis. The Art Story's overview of Contemporary Realism emphasizes that artists often work from nearby life, interiors, and still life, supporting ordinary objects as central subjects. [The Art Story](https://www.theartstory.org/movement/contemporary-realism/) This direction may depict drinking glasses, fruit, flowers, food, cloth, plastic packaging, newspapers, toys, dishes, bottles, cans, reflective metal, transparent liquid, and consumer goods. Unlike traditional still life, contemporary still life does not necessarily emphasize moral allegory or wealth symbolism. It more often uses reflection, transparency, color collision, stacking, and modern materials to show the density of the everyday world.
+
+Janet Fish is a useful reference point: glass, liquids, patterned textiles, and saturated color can turn ordinary objects into complex optical events. Smithsonian American Art Museum's Modern American Realism context can be used as a reference for this kind of contemporary painting of daily objects. [Smithsonian American Art Museum](https://americanart.si.edu/exhibitions/american-realism)
+
+When identifying still-life realism, ask whether the work turns object surfaces into the main visual drama. Refraction in transparent glass, bright edges on metal, wrinkles in plastic packaging, fruit skins, flower petals, repeating tablecloth patterns, and liquid reflections shift viewing from "what is this object?" to "how does light pass through and change these objects?" Getty's elements-of-art framework can help connect line, shape, color, texture, space, and value to object surfaces. [Getty](https://www.getty.edu/education/teachers/building_lessons/elements_art.pdf) If the objects include modern packaging, product labels, kitchen tools, or tabletop items, the image is closer to contemporary still-life realism than to a classical still-life tradition.
+
+Emotion, valence, and arousal usually come from color, order, and reflection. Saturated reds, yellows, oranges, sparkling glass, and dense pattern raise arousal and may feel joyful, excited, complex, or slightly dazzling. Low-saturation gray, brown, blue, and empty tabletops lower arousal, creating quiet, nostalgia, or loneliness. Symmetry, neat arrangement, and soft light often bring stability or positive valence. Tilted, broken, overcrowded, sharply reflective, or color-clashing objects may create anxiety, fragility, or material excess.
+
+The main confusion is with Photorealism. A highly detailed still life may look photographic, but contemporary still-life realism does not necessarily pursue camera-like reproduction. If color is subjectively heightened, space is flattened, objects are arranged with obvious rhythm, or brushwork and pigment remain visible, emphasize painterly interpretation. Also avoid assuming still life is always calm and low-arousal: transparent glass, high contrast, and dense reflections can create very active visual rhythm. Judge object type, light source, color purity, number of reflections, and compositional density together.
+
+## Sources
+
+- Contemporary Realism Movement Overview - The Art Story: https://www.theartstory.org/movement/contemporary-realism/
+- Modern American Realism - Smithsonian American Art Museum: https://americanart.si.edu/exhibitions/american-realism
+- The Elements of Art - Getty: https://www.getty.edu/education/teachers/building_lessons/elements_art.pdf

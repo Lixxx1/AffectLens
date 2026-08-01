@@ -1,0 +1,15 @@
+# American Magic Realism
+
+American Magic Realism can include the realist strangeness of artists such as Peter Blume, Ivan Albright, and George Tooker. It often adds absurdity, bodily decay, social allegory, isolated figures, institutional space, or psychological unease to dense realism, egg-like color, or smooth surfaces. The Smithsonian American Art Museum's *Modern American Realism* exhibition places Tooker and related artists within the varied emotional context of postwar American realism; this direction existed alongside Abstract Expressionism while choosing to preserve figuration. [Smithsonian American Art Museum](https://americanart.si.edu/exhibitions/american-realism)
+
+To identify it, ask whether realist detail serves allegory and estrangement. American Magic Realism may depict ordinary interiors, offices, public spaces, figure groups, bodies, machines, cities, or still lifes, but the details become too clear, the atmosphere too still, and the figures too blank; reality starts to read like an allegory. Tooker-like figures often repeat, wait, or become isolated inside institutional spaces. Smithsonian's entry for Tooker's *In the Summerhouse* can serve as a reference for still figures, psychological space, and uncanny realism. [Smithsonian American Art Museum](https://americanart.si.edu/artwork/summerhouse-24496) Albright-like detail may magnify bodily and material decay; Blume-like imagery may fuse reality, politics, and absurdity into strange narrative.
+
+Emotionally, American Magic Realism often has negative or complex valence and low to medium arousal. Smooth surfaces and still composition reduce action-based activation, but absurd details, bodily discomfort, institutional space, and psychological allegory produce lasting unease. If color is gray, green, thin, or cold white, the mood becomes more oppressive. If color is bright while the scene is absurd, it may create satire or uncanny contrast. Its magic is often not a miracle, but the sudden inhuman or allegorical structure revealed inside ordinary reality.
+
+It is easily confused with Social Realism and Surrealism. Social Realism criticizes class and institutions more directly; American Magic Realism may contain social allegory, but it emphasizes mysterious or absurd atmosphere. Britannica's account of Realism can serve as a baseline for everyday realist depiction, helping distinguish "reality made strange" from pure fantasy. [Britannica](https://www.britannica.com/art/realism-art) Surrealism is more dreamlike; American Magic Realism retains the material truth of everyday things. Judge whether realist detail makes reality strange rather than transporting the image into a fantasy world.
+
+## Sources
+
+- Modern American Realism - Smithsonian American Art Museum: https://americanart.si.edu/exhibitions/american-realism
+- George Tooker, In the Summerhouse - Smithsonian American Art Museum: https://americanart.si.edu/artwork/summerhouse-24496
+- Realism - Britannica: https://www.britannica.com/art/realism-art

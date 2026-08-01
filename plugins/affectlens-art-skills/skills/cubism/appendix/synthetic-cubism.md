@@ -1,0 +1,15 @@
+# Synthetic Cubism
+
+Synthetic Cubism usually develops from around 1912. Rather than primarily decomposing objects into fine gray-brown planes, it "synthesizes" the image with larger shapes, brighter colors, collage materials, newspapers, wallpaper, wood-grain paper, tickets, wine labels, and printed letters. MoMA's distinction between Analytic and Synthetic Cubism is the basic reference for this shift. [MoMA](https://www.moma.org/collection/terms/cubism/analytic-and-synthetic-cubism) Guggenheim Bilbao and Britannica both emphasize the importance of collage / papiers colles: real materials are placed directly into the picture, so painting no longer only depicts the world but also attaches fragments of the world into the artwork's structure. [Guggenheim Museum Bilbao](https://www.guggenheim-bilbao.eus/en/exhibition/cubismo-sintetico) [Britannica](https://www.britannica.com/art/Synthetic-Cubism)
+
+For identification, first examine materials and signs. If the image includes real or simulated newspaper, printed type, wood grain, wallpaper, sheet music, labels, cafe words, trademarks, or cut-paper outlines, it may be close to Synthetic Cubism. Guggenheim Bilbao's material on Synthetic Cubism supports the importance of collage materials and signs in identification. [Guggenheim Museum Bilbao](https://www.guggenheim-bilbao.eus/en/exhibition/cubismo-sintetico) Objects are often easier to recognize than in Analytic Cubism, such as guitars, glasses, tabletops, bottles, pipes, or newspapers. Forms are larger and flatter, as if cut out and reattached. Color may include red, yellow, green, blue, and black-white contrast, making the overall image brighter than the analytic phase.
+
+Emotionally, Synthetic Cubism often feels wittier, more urban, livelier, or gently ironic. Collage raises arousal because the viewer must read image, text, and material texture at the same time. Bright color blocks and clear shapes can make valence more open and even positive. But if collage text involves war news, politics, or fractured urban experience, valence can become more complex. The "realness" of material makes the image oscillate between reality and illusion, producing a light but not entirely stable modern feeling.
+
+The main confusion point is Dada collage. Dada often emphasizes absurdity, anti-art, chance juxtaposition, and political / social satire. Synthetic Cubism uses newspaper and collage too, but usually still serves object structure, picture flatness, and multiple-viewpoint combination. If the collage helps establish a guitar, bottle, tabletop, or related object, it leans Synthetic Cubism. If it deliberately destroys meaning, creates absurd conflict, or declares an anti-traditional stance, it may lean Dada. Ask whether the material is "building the image" or "breaking image order."
+
+## Sources
+
+- Synthetic Cubism - Guggenheim Museum Bilbao: https://www.guggenheim-bilbao.eus/en/exhibition/cubismo-sintetico
+- Synthetic Cubism - Britannica: https://www.britannica.com/art/Synthetic-Cubism
+- Analytic and Synthetic Cubism - MoMA: https://www.moma.org/collection/terms/cubism/analytic-and-synthetic-cubism

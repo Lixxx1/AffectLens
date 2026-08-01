@@ -1,0 +1,15 @@
+# Berlin Dada / Photomontage
+
+Berlin Dada is the most politically charged and visually confrontational Dada branch, often associated with Hannah Hoch, Raoul Hausmann, John Heartfield, George Grosz, and others. It developed after World War I and during the early Weimar Republic, especially through photomontage: cutting photographs and text from newspapers, magazines, advertisements, and political imagery, then recombining them with abrupt scale and satirical force. MoMA's Dada collage / photomontage material supports this reading of mass-media image reassembly. [MoMA](https://www.moma.org/collection/terms/dada/chance-creations-collage-photomontage-and-assemblage) MoMA Magazine and Berlinische Galerie resources also point to Hannah Hoch and Berlin Dada's importance for photo-cutting, media imagery, gender, and political satire. [MoMA Magazine](https://www.moma.org/magazine/articles/1430) [Berlinische Galerie](https://berlinischegalerie.de/en/collection/specialised-fields/artist-in-focus/)
+
+When identifying Berlin Dada, look for mass-media imagery reassembled as political satire. Common evidence includes politician heads, machine bodies, soldiers, industrial parts, advertising beauties, newspaper headlines, fractured typography, maps, gears, urban crowds, and exaggerated scale. If a human head is attached to a machine body, or consumer imagery collides with war or political signs, the work may be close to Berlin Dada. Cut edges, overlapping layers, distorted scale, and text fragments are not decoration; they are a way of criticizing media, power, and modern society. Hannah Hoch is especially useful for reading collisions among gender, media, and politics. [MoMA Magazine](https://www.moma.org/magazine/articles/1430)
+
+Emotionally, Berlin Dada is often high in arousal. Fragment density, strong contrast, satirical text, and political imagery create anger, mockery, anxiety, shock, or a sense of being attacked by the image. Valence is usually negative or mixed. The work may be witty or funny, but behind the joke are often war trauma, class conflict, gender pressure, or institutional decay. Machine bodies make figures colder and can produce dehumanization, pressure, or modern alienation.
+
+The main confusions are Constructivism and graphic design. Constructivism also uses photography, text, and diagonal composition, but usually emphasizes construction, propaganda, mobilization, and clear design order. Berlin Dada more often makes elements undermine one another, with sharper satire and more deliberate disorder. Ordinary collage design may only seek visual liveliness and lack antiwar, anti-authority, or media critique. Prioritize political / social satire, mass-media sources, and intentionally discordant combination logic.
+
+## Sources
+
+- Chance Creations: Collage, Photomontage, and Assemblage - MoMA: https://www.moma.org/collection/terms/dada/chance-creations-collage-photomontage-and-assemblage
+- Hannah Hoch's Fortuitous Beauty - MoMA Magazine: https://www.moma.org/magazine/articles/1430
+- Artist in focus - Berlinische Galerie: https://berlinischegalerie.de/en/collection/specialised-fields/artist-in-focus/

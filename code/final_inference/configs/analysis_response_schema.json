@@ -1,0 +1,152 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AffectLens analysis response",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "element_inventory",
+    "style_skill_analysis",
+    "overall_caption",
+    "brushstroke",
+    "composition",
+    "color",
+    "line",
+    "light",
+    "reasoning",
+    "valence_reasoning",
+    "arousal_reasoning",
+    "emotion_reasoning",
+    "quadrant_check",
+    "second_best_emotion",
+    "dominant_emotion",
+    "valence",
+    "arousal",
+    "uncertainty"
+  ],
+  "properties": {
+    "element_inventory": {
+      "type": "string",
+      "description": "Concise inventory of the visible artwork elements before style selection: main subjects or forms, focal relationship, text or symbols if present, medium/material cues, and key color/composition/line/light/brush evidence."
+    },
+    "style_skill_analysis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "inferred_style_or_tradition",
+        "skills_applied",
+        "skill_guided_reading",
+        "style_bias_check"
+      ],
+      "properties": {
+        "inferred_style_or_tradition": {
+          "type": "string"
+        },
+        "skills_applied": {
+          "type": "string"
+        },
+        "skill_guided_reading": {
+          "type": "string"
+        },
+        "style_bias_check": {
+          "type": "string"
+        }
+      }
+    },
+    "overall_caption": {
+      "type": "string",
+      "description": "Concise neutral caption of the artwork's visible content and overall atmosphere."
+    },
+    "brushstroke": {
+      "type": "string",
+      "description": "Specific evidence from brushwork, paint handling, mark texture, or surface treatment, plus the perceptual or emotional effect it creates."
+    },
+    "composition": {
+      "type": "string",
+      "description": "Specific evidence from arrangement, focal structure, balance, cropping, movement, and spatial organization, plus the perceptual or emotional effect it creates."
+    },
+    "color": {
+      "type": "string",
+      "description": "Specific evidence from palette, saturation, value contrast, temperature, and color relationships, plus the perceptual or emotional effect it creates."
+    },
+    "line": {
+      "type": "string",
+      "description": "Specific evidence from contours, edges, linear direction, curvature, sharpness, and line tension, plus the perceptual or emotional effect it creates."
+    },
+    "light": {
+      "type": "string",
+      "description": "Specific evidence from illumination, shadow, highlights, darkness, and light quality, plus the perceptual or emotional effect it creates."
+    },
+    "reasoning": {
+      "type": "string",
+      "description": "Concise evidence synthesis after visual evidence and style-skill calibration."
+    },
+    "valence_reasoning": {
+      "type": "string"
+    },
+    "arousal_reasoning": {
+      "type": "string"
+    },
+    "emotion_reasoning": {
+      "type": "string"
+    },
+    "quadrant_check": {
+      "type": "string"
+    },
+    "second_best_emotion": {
+      "type": "string",
+      "enum": [
+        "Alarmed",
+        "Annoyed",
+        "Aroused",
+        "Bored",
+        "Calm",
+        "Contentment",
+        "Excited",
+        "Frustrated",
+        "Glad",
+        "Happy",
+        "Sad",
+        "Tired"
+      ]
+    },
+    "dominant_emotion": {
+      "type": "string",
+      "enum": [
+        "Alarmed",
+        "Annoyed",
+        "Aroused",
+        "Bored",
+        "Calm",
+        "Contentment",
+        "Excited",
+        "Frustrated",
+        "Glad",
+        "Happy",
+        "Sad",
+        "Tired"
+      ]
+    },
+    "valence": {
+      "type": "string",
+      "enum": [
+        "Positive",
+        "Negative"
+      ]
+    },
+    "arousal": {
+      "type": "string",
+      "enum": [
+        "Low",
+        "High"
+      ]
+    },
+    "uncertainty": {
+      "type": "string",
+      "enum": [
+        "Low",
+        "Medium",
+        "High"
+      ]
+    }
+  }
+}

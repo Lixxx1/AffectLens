@@ -1,0 +1,15 @@
+# Minhwa Folk Painting
+
+Minhwa is a folk and everyday painting tradition popular in Joseon-period Korea. Subjects include tiger-magpie, ten longevity symbols, peonies, fish, bookshelves, flowers and birds, letter pictures, weddings, and auspicious symbols. National Museum of Korea / Google Arts & Culture resources can serve as references for minhwa subjects, decoration, and folk functions. [National Museum of Korea / Google Arts & Culture](https://artsandculture.google.com/story/minhwa-korean-folk-painting-national-museum-of-korea/0wUxIjtp3LhCJg) Minhwa is often brighter, more direct, more decorative, and more humorous than court landscape and literati painting. National Folk Museum of Korea material on the tiger explains its multiple meanings in Korean folklore and folk painting, including protection, wish-making, humor, and national spirit. [National Folk Museum of Korea](https://www.nfm.go.kr/english/subIndex/1014.do)
+
+To identify it, ask whether color and symbol are outward-facing. Minhwa often uses bright red, yellow, blue, and green; simplified line; and folk-shaped motifs. Tigers may be exaggerated or goofy, magpies bring good news, pine symbolizes longevity, and ten longevity symbols such as sun, mountain, water, cloud, rock, pine, turtle, crane, deer, and immortality fungus express long life and blessing. Bookshelf and letter paintings visualize objects, wishes, and daily culture. The Met's Korean genre painting essay can serve as adjacent context for late-Joseon everyday image culture. [The Metropolitan Museum of Art](https://www.metmuseum.org/essays/work-and-leisure-eighteenth-century-genre-painting-in-korea)
+
+Emotionally, minhwa usually has positive valence and medium to high arousal. Bright color blocks, repeated patterns, auspicious themes, and exaggerated animals create celebration, vitality, humor, protection, and everyday warmth. A tiger can feel both powerful and funny. Buddhist or mountain-spirit images may mix sacredness with folk intimacy. Do not underestimate emotional complexity because the style looks "plain" or "naive"; minhwa often treats power, wishes, and fear in a light visual manner.
+
+It is easily confused with children's art, New Year prints, or generic folk illustration. Minhwa should be identified through Joseon folk subject matter, auspicious symbols, mineral/folk color, and decorative composition, not through whether the technique looks polished. It also differs from Chinese New Year pictures: Korean tiger-magpie, ten longevity symbols, and bookshelf images have specific cultural contexts.
+
+## Sources
+
+- National Folk Museum of Korea, Tiger: https://www.nfm.go.kr/english/subIndex/1014.do
+- Minhwa and Korean Folk Painting - National Museum of Korea / Google Arts & Culture: https://artsandculture.google.com/story/minhwa-korean-folk-painting-national-museum-of-korea/0wUxIjtp3LhCJg
+- Work and Leisure: Eighteenth-Century Genre Painting in Korea - The Metropolitan Museum of Art: https://www.metmuseum.org/essays/work-and-leisure-eighteenth-century-genre-painting-in-korea

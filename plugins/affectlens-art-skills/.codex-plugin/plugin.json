@@ -1,0 +1,22 @@
+{
+  "name": "affectlens-art-skills",
+  "version": "0.1.0",
+  "description": "Art-history and art-style knowledge for evidence-grounded artwork analysis.",
+  "author": {
+    "name": "Team Creative AI+"
+  },
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "AffectLens Art Skills",
+    "shortDescription": "Art-style knowledge for artwork analysis.",
+    "longDescription": "A collection of 56 art-history and art-style skills used to calibrate evidence-grounded emotion analysis without replacing evidence from the target artwork.",
+    "developerName": "Team Creative AI+",
+    "category": "Education",
+    "capabilities": [],
+    "defaultPrompt": [
+      "Analyze this artwork with relevant art-style skills.",
+      "Identify the artwork's likely style and emotional cues."
+    ]
+  }
+}

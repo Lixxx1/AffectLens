@@ -1,0 +1,15 @@
+# Mughal Painting
+
+Mughal painting is an Indian miniature painting direction that developed in the imperial Mughal court from the 16th to the 18th century, mainly through manuscript illustration and individual miniature works. Britannica emphasizes that it blended Persian tradition, Indian observation, and gradually increasing naturalism, especially under Akbar, Jahangir, and related court contexts, developing historical narrative, court record, portraiture, and natural studies. [Britannica](https://www.britannica.com/art/Mughal-painting) Compared with many Rajput/Rajasthani works, Mughal images often emphasize individual observation, court order, and political power.
+
+To identify it, look for emperors, princes, nobles, court ceremony, hunting, battle records, single profile portraits, natural studies, animals, flowers, and detailed architecture. Britannica's account of Mughal style in the Akbar period can serve as a reference for court ateliers, narrative illustration, and historical-record functions. [Britannica](https://www.britannica.com/art/South-Asian-arts/Mughal-style-Akbar-period-1556-1605) Mughal works often have refined facial detail, dress, beards, jewels, carpets, and borders. Figures tend to have clear identity, and narratives often feel documentary. Persian influence may appear in manuscript format, refined ornament, and garden space, while Indian artists' observation gives people and nature more specificity.
+
+Emotionally, Mughal painting often conveys solemnity, power, ritual, dignity, rational observation, or courtly distance. Imperial portraits and audience scenes usually have neutral to positive valence and low to medium arousal, emphasizing order and status. Hunting, battle, cavalry, and animal struggle raise arousal and can create tension, heroism, or political force. Natural studies and individual flower-bird-animal images may feel calmer, precious, and contemplative. Gold, borders, and fine pattern strengthen formality.
+
+The main confusion is with Persian miniature and broader Islamic manuscript painting. Mughal works do have Persian influence, but they often focus more on Indian court figures, naturalism, historical record, and psychological portraiture. The Met's *Indian Court Painting, 16th-19th Century* is useful for comparing Mughal with other Indian regional court traditions. [The Metropolitan Museum of Art](https://libmma.contentdm.oclc.org/digital/collection/p15324coll10/id/12335) If the image is mainly a Persian literary scene, has more conventional figure types, and calligraphic page design dominates, it may be closer to Persian miniature. Judge together from imperial identity, clothing, architecture, animals, inscriptions, and narrative context.
+
+## Sources
+
+- Mughal Painting - Britannica: https://www.britannica.com/art/Mughal-painting
+- South Asian Arts: Mughal Style, Akbar Period - Britannica: https://www.britannica.com/art/South-Asian-arts/Mughal-style-Akbar-period-1556-1605
+- Indian Court Painting, 16th-19th Century - The Metropolitan Museum of Art: https://libmma.contentdm.oclc.org/digital/collection/p15324coll10/id/12335

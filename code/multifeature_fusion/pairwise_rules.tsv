@@ -1,0 +1,8 @@
+rule	threshold
+Aroused:Excited	0.0
+Annoyed:Frustrated	0.0
+Sad:Tired	0.15
+Bored:Tired	-1.25
+Contentment:Calm	-0.05
+Glad:Contentment	0.05
+Glad:Calm	0.0

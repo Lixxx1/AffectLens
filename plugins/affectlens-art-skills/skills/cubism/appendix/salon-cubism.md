@@ -1,0 +1,15 @@
+# Salon Cubism
+
+Salon Cubism refers to the Cubist practices seen by broader publics in the Paris exhibition system during the 1910s, often associated with Jean Metzinger, Albert Gleizes, Henri Le Fauconnier, Fernand Leger, Robert Delaunay, and related artists. [The Art Story](https://www.theartstory.org/movement/salon-cubism/) Compared with the experiments Picasso and Braque pursued in a smaller circle, Salon Cubism was more public, more theoretical, and more often appeared in large canvases, figure groups, modern-life themes, and exhibition controversies. Smarthistory and Khan Academy both note that Gleizes and Metzinger's *Du Cubisme* helped the public understand this new artistic language. [Smarthistory](https://smarthistory.org/salon-cubism/) [Khan Academy](https://www.khanacademy.org/humanities/art-1010/cubism-early-abstraction/cubism/a/salon-cubism)
+
+For identification, do not look only for Picasso / Braque-style still lifes. Salon Cubism may include larger-scale figures, dancers, bathers, athletes, cities, or group scenes. Smarthistory's discussion of Salon Cubism is useful for its public exhibition setting, larger subjects, and theoretical character. [Smarthistory](https://smarthistory.org/salon-cubism/) The image still has multiple viewpoints, geometric division, and compressed space, but it often has more rhythm, decoration, or public narrative. It may be brighter than Analytic Cubism and may use less actual collage than Synthetic Cubism. Leger-like works can also include a mechanical feeling and cylindrical structures, making figures and environments feel like modern industrial rhythms.
+
+Emotionally, Salon Cubism is often more outward-facing than Analytic Cubism. Large composition, bodily movement, public space, and stronger color raise arousal. If the organization is dense and figures are legible, valence may feel positive, modern, and confident. If fragment density is high, bodies are mechanized, and space is strongly compressed, the image may create tension, alienation, or modern anxiety. Compared with the intellectual contemplation of small still lifes, Salon Cubism more easily creates the feeling that "the modern world is unfolding."
+
+Common confusion points include Futurism and Orphism. Salon Cubism and Futurism can both express motion and modern urban life, but Futurism makes speed, machines, and impact the main theme, while Salon Cubism remains focused on multiple viewpoints, formal theory, and object structure. It can also approach Orphism, especially in Delaunay's bright color and circular rhythm. In that case, check whether color / light has become more important than object structure; if color rotation and musicality dominate, the work may lean Orphist.
+
+## Sources
+
+- Salon Cubism - Smarthistory: https://smarthistory.org/salon-cubism/
+- Salon Cubism - Khan Academy: https://www.khanacademy.org/humanities/art-1010/cubism-early-abstraction/cubism/a/salon-cubism
+- Salon Cubism Movement Overview - The Art Story: https://www.theartstory.org/movement/salon-cubism/

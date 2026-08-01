@@ -1,0 +1,13 @@
+class	bias
+Aroused	0.25
+Excited	0.10000000149011612
+Happy	0.5
+Alarmed	-0.25
+Annoyed	0.0
+Frustrated	-0.25
+Sad	-0.5
+Bored	-0.25
+Tired	0.0
+Contentment	-0.25
+Calm	0.10000000149011612
+Glad	0.25

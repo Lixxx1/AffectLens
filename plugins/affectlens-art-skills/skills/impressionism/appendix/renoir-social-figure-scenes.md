@@ -1,0 +1,15 @@
+# Renoir-Type Social Figure Scenes
+
+Renoir-type social figure scenes focus on modern leisure, dances, cafes, riverside outings, gatherings of friends, couples, children, portraits, and crowds in sunlight. The Met's Impressionism overview can serve as a reference for 19th-century modern life, light/color, and the Impressionist group context. [The Metropolitan Museum of Art](https://www.metmuseum.org/toah/hd/imml/hd_imml.htm) This direction uses Impressionist brushwork and light, but compared with pure landscape it emphasizes bodies, intimate distance, and social atmosphere. Philadelphia Museum of Art's material on Durand-Ruel and the Impressionists mentions Renoir's dance subjects, showing how social scenes became a meeting point of modern life and painting's light/color experiments. [Philadelphia Museum of Art](https://www.philamuseum.org/calendar/exhibition/discovering-the-impressionists-paul-durand-ruel-and-the-new-painting)
+
+To identify it, ask whether figures are fused into flickering light and a relaxed environment rather than modeled like academic portraits. Figure edges may be broken by sunlight, fabric, background, and tree shadow. Skin, clothing, hats, tablecloths, and garden colors respond to one another. Museum Barberini's overview of Impressionist luminosity and fleeting sensations supports this reading of figure scenes organized through instant light/color. [Museum Barberini](https://prolog.museum-barberini.de/en/16314/) The composition may feel like a slice of modern life, with edge figures cropped and the scene extending beyond the canvas. Compared with Degas's cooler observation, Renoir-type scenes are usually warmer, rounder, and more socially pleasant.
+
+Emotionally, this direction often has positive valence and medium arousal. Warm color, skin glow, intimate distance, dance rhythm, and soft brushwork can create happiness, warmth, ease, romance, or festivity. Crowds, music, dancing, and strong sunlight raise arousal. If figures do not meet one another's gaze, expressions are blurred, or the composition feels crowded, slight alienation can appear, but the overall mood is usually more intimate and bright than Degas/Manet's modern urban direction.
+
+It is easily confused with Rococo, academic figure painting, or ordinary social illustration. Rococo is earlier, more decorative, and more aristocratic. Academic figure painting emphasizes contour, volume, and finish. Renoir-type Impressionist figures emphasize fleeting light, loose edges, and modern leisure. Do not classify only from "many people" and "warm color"; look for broken brushwork, moving light, and the immediate feel of 19th-century modern life.
+
+## Sources
+
+- Discovering the Impressionists - Philadelphia Museum of Art: https://www.philamuseum.org/calendar/exhibition/discovering-the-impressionists-paul-durand-ruel-and-the-new-painting
+- Impressionism - Museum Barberini: https://prolog.museum-barberini.de/en/16314/
+- Impressionism - The Metropolitan Museum of Art: https://www.metmuseum.org/toah/hd/imml/hd_imml.htm

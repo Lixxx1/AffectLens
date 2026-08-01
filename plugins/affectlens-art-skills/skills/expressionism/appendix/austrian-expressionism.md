@@ -1,0 +1,15 @@
+# Austrian Expressionism
+
+Austrian Expressionism is often associated with Egon Schiele, Oskar Kokoschka, Richard Gerstl, and related artists, especially within the psychological, bodily, and social tensions of Viennese modernism. Leopold Museum resources on Expressionism and New Objectivity provide useful context for Schiele, Kokoschka, and Austrian modernism. [Leopold Museum](https://www.leopoldmuseum.org/en/collection/expressionism-new-objectivity) Unlike Die Brucke, it is not mainly driven by group manifesto and woodcut-like collective practice; unlike Der Blaue Reiter, it does not primarily move toward spiritual abstraction. It more often turns the body, portrait, self-scrutiny, sexuality, death, anxiety, and psychological fracture into sharp images. Britannica's general Expressionism account supports reading these distortions as expressions of subjective inner states. [Britannica](https://www.britannica.com/art/Expressionism)
+
+When identifying it, first ask whether the figure has been pushed into an uncomfortable psychological distance. Schiele-like figures often have twisted limbs, protruding joints, exaggerated fingers, hollow or confrontational eyes, tense bodily edges, and blank backgrounds, as if stripped out of social space. Kokoschka-like portraits more often use trembling brushwork, distorted faces, and strong color to convey psychological energy; Leopold Museum material on Kokoschka can be used as reference for this portrait intensity. [Leopold Museum](https://www.leopoldmuseum.org/en/press/news/1063/Leopold-Museum-Exhibition-dedicated-to-the-Austrian-Expressionist-Oskar-Kokoschka) The body is not an ideal figure; it is a site of desire, fragility, death-awareness, and self-exposure.
+
+Emotionally, Austrian Expressionism often has negative or highly complex valence. Pale skin, red-orange contour, twisted pose, blank background, and sharp gaze create anxiety, discomfort, fragility, desire, shame, or mortality. Arousal is usually medium-high to high, but it is more nervous and inward than Die Brucke's urban noise. Thin trembling lines, isolated bodies, and broken local color can make viewers feel forced to confront psychological nakedness.
+
+The main confusions are Symbolism, the Vienna Secession, and ordinary expressive portraiture. Vienna Secession works are often more decorative, linear, and patterned. Austrian Expressionism is sharper and more psychologically exposed. Symbolism may use dream or mystery, but Austrian Expressionist bodies are usually more direct and unsettling. Judge whether line behaves like nervous tension and whether the figure is psychologized rather than idealized.
+
+## Sources
+
+- Expressionism - New Objectivity Collection - Leopold Museum: https://www.leopoldmuseum.org/en/collection/expressionism-new-objectivity
+- Oskar Kokoschka exhibition - Leopold Museum: https://www.leopoldmuseum.org/en/press/news/1063/Leopold-Museum-Exhibition-dedicated-to-the-Austrian-Expressionist-Oskar-Kokoschka
+- Expressionism - Britannica: https://www.britannica.com/art/Expressionism

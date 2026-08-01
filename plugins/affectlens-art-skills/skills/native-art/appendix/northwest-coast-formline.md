@@ -1,0 +1,15 @@
+# Northwest Coast Formline
+
+Northwest Coast formline is a structural visual system in many Indigenous art traditions of the North American Northwest Coast. It appears in wood carving, masks, totem poles, boxes, textiles, prints, and contemporary painting. The Burke Museum's teaching resource explains that formline organizes imagery through ovoids, U forms, S forms, continuous lines that vary in width, and positive-negative space; it is not random decoration. [Burke Museum](https://www.burkemuseum.org/collections-and-research/culture/contemporary-culture/northwest-coast-formline-design) It is often used for animals, clan crests, ancestors, and story images, but specific meanings require work descriptions and community context.
+
+When identifying it, look for whether thick black primary lines create an organic but disciplined graphic skeleton. Ovoids often resemble rounded rectangles or eye shapes; U forms and S forms organize bodies, wings, fins, claws, and joints; red, blue-green, or white often fills interior spaces. The National Museum of the American Indian's "Infinity of Nations" can be used as a reference for Native North American art across tribal, regional, and material traditions. [National Museum of the American Indian](https://americanindian.si.edu/exhibitions/infinityofnations/) Images may look abstract on the surface, but often recognizable ravens, bears, eagles, wolves, whales, or serpents can be found. Variation in line width and balance between positive and negative form are key evidence.
+
+Emotionally, formline often brings solemnity, stability, power, protection, and ceremonial presence. Thick black lines and symmetrical structure reduce disorder, producing low to moderate arousal; dense nested forms, strong red-black contrast, and mask-like frontal gaze can raise arousal. Valence should not be fixed by animal name alone. Judge from visual force, work function, and title. In contemporary political imagery, the emotion may shift from solemnity toward resistance or commemoration.
+
+A common confusion is generic "totem-style" decoration. True formline has a strict shape system, tribal or regional context, and material traditions. The Smithsonian American Art Museum's Native and Indigenous Art page can also serve as a reference for respecting artist, community, and collection context. [Smithsonian American Art Museum](https://americanart.si.edu/art/highlights/native-american) Decorative imitation may have heavy black lines and animal motifs but lack ovoid, U/S form, and positive-negative logic. Analysis should avoid unauthorized explanations of sacred meanings and describe only visible structure and source information.
+
+## Sources
+
+- Northwest Coast Formline Design - Burke Museum: https://www.burkemuseum.org/collections-and-research/culture/contemporary-culture/northwest-coast-formline-design
+- Infinity of Nations - National Museum of the American Indian: https://americanindian.si.edu/exhibitions/infinityofnations/
+- Native American Art - Smithsonian American Art Museum: https://americanart.si.edu/art/highlights/native-american

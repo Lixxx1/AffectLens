@@ -1,0 +1,15 @@
+# Literati Freehand Painting / Four Gentlemen
+
+Joseon literati freehand painting is closely tied to scholar-official culture, poetry-calligraphy-painting practice, Confucian cultivation, and personal state of mind. The Met Libraries' *Arts of Korea* can serve as context for Joseon scholar culture, calligraphy-painting traditions, and Korean art history. [The Metropolitan Museum of Art Libraries](https://libmma.contentdm.oclc.org/digital/collection/p15324coll10/id/46962) Common subjects include landscape and the Four Gentlemen: plum, orchid, bamboo, and chrysanthemum, as well as pine, rock, and cranes. Unlike court painting, it does not emphasize institutional polish; unlike minhwa, it does not emphasize bright folk color. It expresses character, cultivation, and emotion through ink, line, empty space, poetry, and seals.
+
+To identify it, ask whether the brushwork is calligraphic. Bamboo leaves, orchid leaves, plum branches, chrysanthemum dots, and rock texture may feel like extensions of calligraphic motion. China Online Museum's page on the Four Gentlemen can serve as a general East Asian reference for plum, orchid, bamboo, and chrysanthemum symbolism and brush subjects. [China Online Museum](https://www.comuseum.com/painting/subjects/four-gentlemen/) The image may be very spare, perhaps only a few bamboo stalks, a rock, or orchid grasses, but inscription and seals join the image in forming rhythm. Line is free but not careless; it emphasizes breath and character.
+
+Emotionally, literati freehand painting usually has low to medium arousal. Pale ink, empty space, solitary branches, thin rocks, and brief inscriptions create elegance, solitude, restraint, thought, or withdrawal. Fast dry brush, dense bamboo leaves, and diagonal branches raise arousal and suggest backbone, resilience, or inward agitation. Valence is often complex: calm and positive, but also potentially lonely, frustrated, or quietly sorrowful.
+
+It is easily confused with Chinese literati painting. Joseon literati painting shares subjects and Chinese-character culture, but Korean aesthetics often stress natural plainness, restraint, and empty space. The National Museum of Korea's Joseon Dynasty Gallery can serve as a collection context for Joseon literati, court, and folk images. [National Museum of Korea](https://www.museum.go.kr/site/eng/showroom/757/view) If the image includes Korean inscriptions, hanji, Joseon scholar context, or local style, keep the Korean-painting reading. Also distinguish it from generic ink decoration: the key is the relation between brushwork, character, and poetry-calligraphy-painting culture.
+
+## Sources
+
+- Arts of Korea - The Metropolitan Museum of Art Libraries PDF: https://libmma.contentdm.oclc.org/digital/collection/p15324coll10/id/46962
+- Joseon Dynasty Gallery - National Museum of Korea: https://www.museum.go.kr/site/eng/showroom/757/view
+- Four Gentlemen in East Asian Painting - Encyclopaedia reference: https://www.comuseum.com/painting/subjects/four-gentlemen/
