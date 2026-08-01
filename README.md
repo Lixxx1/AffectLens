@@ -15,7 +15,7 @@ Evidence-grounded emotion understanding for artwork.
   Sirui Chen<sup>1</sup>,
   Yukai Liu<sup>1</sup>,
   [Yuxiang Lin](https://lum.is-a.dev/)<sup>2†</sup> (Project Lead),
-  Zebang Cheng<sup>3</sup>,
+  [Zebang Cheng](https://scholar.google.com/citations?user=-fG3MhYAAAAJ&hl=zh-CN)g<sup>3</sup>,
   and [Fei Ma](https://github.com/GML-MMGroup)<sup>3</sup>
 * <sup>1</sup>[Sun Yat-sen University](https://www.sysu.edu.cn/sysuen/), <sup>2</sup>Independent Researcher,
   and <sup>3</sup>[Guangming Laboratory](https://www.gml.ac.cn/)
