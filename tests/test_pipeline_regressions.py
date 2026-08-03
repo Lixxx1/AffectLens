@@ -45,9 +45,81 @@ runner = load_module(
     "test_run_inference",
     PROJECT_ROOT / "code/final_inference/run_inference.py",
 )
+extractor = load_module(
+    "test_extract_image_features",
+    PROJECT_ROOT / "code/feature_extraction/extract_image_features.py",
+)
+retrieval_pipeline = load_module(
+    "test_run_retrieval_pipeline",
+    PROJECT_ROOT / "code/knowledge_retrieval_pipeline/run_retrieval_pipeline.py",
+)
 
 
 class PipelineRegressionTests(unittest.TestCase):
+    def test_huggingface_clip_uses_image_features(self):
+        class FakeClipModel:
+            def __init__(self):
+                self.inputs = None
+
+            def get_image_features(self, **inputs):
+                self.inputs = inputs
+                return "image-features"
+
+            def __call__(self, **inputs):
+                raise AssertionError("CLIP forward should not be used for image-only inputs")
+
+        model = FakeClipModel()
+        result = extractor.extract_huggingface_features(model, {"pixel_values": "pixels"})
+        self.assertEqual(result, "image-features")
+        self.assertEqual(model.inputs, {"pixel_values": "pixels"})
+
+    def test_feature_manifest_rejects_duplicate_ids(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            manifest = Path(tmp) / "manifest.jsonl"
+            manifest.write_text(
+                "\n".join(
+                    [
+                        json.dumps({"image_id": "same", "image_path": "a.jpg"}),
+                        json.dumps({"image_id": "same", "image_path": "b.jpg"}),
+                    ]
+                )
+                + "\n",
+                encoding="utf-8",
+            )
+            with self.assertRaisesRegex(SystemExit, "duplicate image ids"):
+                extractor.read_manifest(manifest)
+
+    def test_retrieval_config_builds_three_retrievals_and_consensus(self):
+        config_path = PROJECT_ROOT / "configs/retrieval.example.json"
+        config = retrieval_pipeline.load_config(config_path)
+        commands = retrieval_pipeline.build_commands(config_path, config)
+        self.assertEqual(len(commands), 4)
+        self.assertTrue(all("retrieve_references.py" in command[1] for command in commands[:3]))
+        self.assertIn("build_reference_consensus.py", commands[3][1])
+
+    def test_retrieval_config_rejects_invalid_values(self):
+        cases = [
+            ("non-string field", [("encoders", 0, "query_features", 123)], "non-empty string fields"),
+            ("unsafe name", [("encoders", 0, "name", "../outside")], "safe single path segment"),
+            ("case-insensitive duplicate", [("encoders", 1, "name", "CLIP_H14")], "unique, ignoring case"),
+            ("reserved name", [("encoders", 0, "name", "Consensus")], "reserved output directories"),
+            ("invalid keep bounds", [("min_keep", 5), ("max_keep", 4)], "between 0 and max_keep"),
+        ]
+        example = PROJECT_ROOT / "configs/retrieval.example.json"
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "config.json"
+            for description, updates, error in cases:
+                with self.subTest(description=description):
+                    config = json.loads(example.read_text())
+                    for update in updates:
+                        if update[0] == "encoders":
+                            config["encoders"][update[1]][update[2]] = update[3]
+                        else:
+                            config[update[0]] = update[1]
+                    path.write_text(json.dumps(config), encoding="utf-8")
+                    with self.assertRaisesRegex(SystemExit, error):
+                        retrieval_pipeline.load_config(path)
+
     def test_default_inference_output_is_results_json_only(self):
         old_argv = sys.argv
         try:

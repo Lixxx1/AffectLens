@@ -1,0 +1,28 @@
+{
+  "query_manifest": "../data/inference/manifest.jsonl",
+  "pool_manifest": "../data/reference_pool.jsonl",
+  "output_dir": "../outputs/retrieval",
+  "top_k": 10,
+  "min_keep": 4,
+  "max_keep": 10,
+  "encoders": [
+    {
+      "role": "clip",
+      "name": "clip_h14",
+      "query_features": "../data/features/inference/clip_h14.npz",
+      "pool_features": "../data/features/pool/clip_h14.npz"
+    },
+    {
+      "role": "openai_clip",
+      "name": "openai_clip_l14_hf",
+      "query_features": "../data/features/inference/openai_clip_l14_hf.npz",
+      "pool_features": "../data/features/pool/openai_clip_l14_hf.npz"
+    },
+    {
+      "role": "dinov3",
+      "name": "dinov3_vit7b16",
+      "query_features": "../data/features/inference/dinov3_vit7b16.npz",
+      "pool_features": "../data/features/pool/dinov3_vit7b16.npz"
+    }
+  ]
+}
