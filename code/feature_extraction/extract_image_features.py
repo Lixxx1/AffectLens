@@ -73,6 +73,20 @@ def resolve_device(torch: Any, requested: str) -> str:
     return requested
 
 
+def extract_huggingface_features(model: Any, inputs: dict[str, Any]) -> Any:
+    get_image_features = getattr(model, "get_image_features", None)
+    if callable(get_image_features):
+        return get_image_features(**inputs)
+    output = model(**inputs)
+    pooled = getattr(output, "pooler_output", None)
+    if pooled is not None:
+        return pooled
+    hidden = getattr(output, "last_hidden_state", None)
+    if hidden is None:
+        raise TypeError(f"Unsupported model output: {type(output)!r}")
+    return hidden[:, 0]
+
+
 def load_backend(args: argparse.Namespace) -> tuple[Any, Callable, Callable, Any, str, str]:
     import torch
 
@@ -109,14 +123,7 @@ def load_backend(args: argparse.Namespace) -> tuple[Any, Callable, Callable, Any
 
         def encode(images: list[Image.Image]) -> Any:
             inputs = {key: value.to(device) for key, value in processor(images=images, return_tensors="pt").items()}
-            output = model(**inputs)
-            pooled = getattr(output, "pooler_output", None)
-            if pooled is not None:
-                return pooled
-            hidden = getattr(output, "last_hidden_state", None)
-            if hidden is None:
-                raise TypeError(f"Unsupported model output: {type(output)!r}")
-            return hidden[:, 0]
+            return extract_huggingface_features(model, inputs)
 
         return model, encode, processor, torch, device, args.model
 

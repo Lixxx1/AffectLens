@@ -53,6 +53,9 @@ def load_config(path: Path) -> dict[str, Any]:
     roles = [encoder["role"] for encoder in encoders]
     if sorted(roles) != sorted(REQUIRED_ROLES):
         raise SystemExit(f"Encoder roles must be exactly: {', '.join(REQUIRED_ROLES)}")
+    names = [encoder["name"] for encoder in encoders]
+    if len(set(names)) != len(names):
+        raise SystemExit("Encoder names must be unique")
     for key in CONFIG_PATH_FIELDS:
         if not isinstance(config.get(key), str) or not config[key].strip():
             raise SystemExit(f"Retrieval config requires a non-empty string {key!r}")

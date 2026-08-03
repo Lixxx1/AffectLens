@@ -56,6 +56,23 @@ retrieval_pipeline = load_module(
 
 
 class PipelineRegressionTests(unittest.TestCase):
+    def test_huggingface_clip_uses_image_features(self):
+        class FakeClipModel:
+            def __init__(self):
+                self.inputs = None
+
+            def get_image_features(self, **inputs):
+                self.inputs = inputs
+                return "image-features"
+
+            def __call__(self, **inputs):
+                raise AssertionError("CLIP forward should not be used for image-only inputs")
+
+        model = FakeClipModel()
+        result = extractor.extract_huggingface_features(model, {"pixel_values": "pixels"})
+        self.assertEqual(result, "image-features")
+        self.assertEqual(model.inputs, {"pixel_values": "pixels"})
+
     def test_feature_manifest_resolves_relative_paths(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
@@ -112,6 +129,15 @@ class PipelineRegressionTests(unittest.TestCase):
             path = Path(tmp) / "config.json"
             path.write_text(json.dumps(config), encoding="utf-8")
             with self.assertRaisesRegex(SystemExit, "safe single path segment"):
+                retrieval_pipeline.load_config(path)
+
+    def test_retrieval_config_rejects_duplicate_encoder_names(self):
+        config = json.loads((PROJECT_ROOT / "configs/retrieval.example.json").read_text())
+        config["encoders"][1]["name"] = config["encoders"][0]["name"]
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "config.json"
+            path.write_text(json.dumps(config), encoding="utf-8")
+            with self.assertRaisesRegex(SystemExit, "names must be unique"):
                 retrieval_pipeline.load_config(path)
 
     def test_retrieval_config_rejects_invalid_keep_bounds(self):
