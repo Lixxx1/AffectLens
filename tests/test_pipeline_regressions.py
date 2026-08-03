@@ -96,6 +96,34 @@ class PipelineRegressionTests(unittest.TestCase):
         self.assertTrue(all("retrieve_references.py" in command[1] for command in commands[:3]))
         self.assertIn("build_reference_consensus.py", commands[3][1])
 
+    def test_retrieval_config_rejects_non_string_encoder_fields(self):
+        config = json.loads((PROJECT_ROOT / "configs/retrieval.example.json").read_text())
+        config["encoders"][0]["query_features"] = 123
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "config.json"
+            path.write_text(json.dumps(config), encoding="utf-8")
+            with self.assertRaisesRegex(SystemExit, "non-empty string fields"):
+                retrieval_pipeline.load_config(path)
+
+    def test_retrieval_config_rejects_unsafe_encoder_name(self):
+        config = json.loads((PROJECT_ROOT / "configs/retrieval.example.json").read_text())
+        config["encoders"][0]["name"] = "../outside"
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "config.json"
+            path.write_text(json.dumps(config), encoding="utf-8")
+            with self.assertRaisesRegex(SystemExit, "safe single path segment"):
+                retrieval_pipeline.load_config(path)
+
+    def test_retrieval_config_rejects_invalid_keep_bounds(self):
+        config = json.loads((PROJECT_ROOT / "configs/retrieval.example.json").read_text())
+        config["min_keep"] = 5
+        config["max_keep"] = 4
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "config.json"
+            path.write_text(json.dumps(config), encoding="utf-8")
+            with self.assertRaisesRegex(SystemExit, "between 0 and max_keep"):
+                retrieval_pipeline.load_config(path)
+
     def test_default_inference_output_is_results_json_only(self):
         old_argv = sys.argv
         try:
