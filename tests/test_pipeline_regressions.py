@@ -133,11 +133,20 @@ class PipelineRegressionTests(unittest.TestCase):
 
     def test_retrieval_config_rejects_duplicate_encoder_names(self):
         config = json.loads((PROJECT_ROOT / "configs/retrieval.example.json").read_text())
-        config["encoders"][1]["name"] = config["encoders"][0]["name"]
+        config["encoders"][1]["name"] = config["encoders"][0]["name"].upper()
         with tempfile.TemporaryDirectory() as tmp:
             path = Path(tmp) / "config.json"
             path.write_text(json.dumps(config), encoding="utf-8")
-            with self.assertRaisesRegex(SystemExit, "names must be unique"):
+            with self.assertRaisesRegex(SystemExit, "unique, ignoring case"):
+                retrieval_pipeline.load_config(path)
+
+    def test_retrieval_config_rejects_reserved_encoder_name(self):
+        config = json.loads((PROJECT_ROOT / "configs/retrieval.example.json").read_text())
+        config["encoders"][0]["name"] = "Consensus"
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "config.json"
+            path.write_text(json.dumps(config), encoding="utf-8")
+            with self.assertRaisesRegex(SystemExit, "reserved output directories"):
                 retrieval_pipeline.load_config(path)
 
     def test_retrieval_config_rejects_invalid_keep_bounds(self):

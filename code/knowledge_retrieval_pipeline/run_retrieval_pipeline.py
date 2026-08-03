@@ -12,6 +12,7 @@ from typing import Any
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 SCRIPT_DIR = Path(__file__).resolve().parent / "scripts"
 REQUIRED_ROLES = ("clip", "openai_clip", "dinov3")
+RESERVED_ENCODER_NAMES = {"consensus"}
 SAFE_ENCODER_NAME = re.compile(r"[A-Za-z0-9][A-Za-z0-9._-]*\Z")
 ENCODER_STRING_FIELDS = ("role", "name", "query_features", "pool_features")
 CONFIG_PATH_FIELDS = ("query_manifest", "pool_manifest", "output_dir")
@@ -54,8 +55,16 @@ def load_config(path: Path) -> dict[str, Any]:
     if sorted(roles) != sorted(REQUIRED_ROLES):
         raise SystemExit(f"Encoder roles must be exactly: {', '.join(REQUIRED_ROLES)}")
     names = [encoder["name"] for encoder in encoders]
-    if len(set(names)) != len(names):
-        raise SystemExit("Encoder names must be unique")
+    normalized_names = [name.casefold() for name in names]
+    if len(set(normalized_names)) != len(normalized_names):
+        raise SystemExit("Encoder names must be unique, ignoring case")
+    reserved_names = sorted(
+        name for name in names if name.casefold() in RESERVED_ENCODER_NAMES
+    )
+    if reserved_names:
+        raise SystemExit(
+            f"Encoder names conflict with reserved output directories: {reserved_names}"
+        )
     for key in CONFIG_PATH_FIELDS:
         if not isinstance(config.get(key), str) or not config[key].strip():
             raise SystemExit(f"Retrieval config requires a non-empty string {key!r}")
