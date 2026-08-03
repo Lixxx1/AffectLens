@@ -9,10 +9,6 @@ Evidence-grounded emotion understanding for artwork.
 
 🥈🥈🥈 We won the **second place** in the Understanding Track of the ACM MM26 Challenge AffectiveArt.
 
-<p align="center">
-  <img src="assets/certificate.png" alt="ACM Multimedia 2026 AffectiveArt Challenge — Track 2 Second Place Certificate" width="600">
-</p>
-
 ## Authors
 
 * [Xiaodong Lin](https://github.com/Lixxx1)<sup>1</sup>,
