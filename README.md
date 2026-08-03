@@ -7,7 +7,14 @@ Evidence-grounded emotion understanding for artwork.
 
 ## 📢 News
 
-🥈🥈🥈 We won the **second place** in the Understanding Track of the ACM MM26 Challenge AffectiveArt.
+🥈🥈🥈 We won **second place** in Track 2: Multidimensional Art Emotion
+Understanding of the
+[AffectiveArt 2026 Challenge](https://affectiveart-challenge.github.io/),
+an ACM Multimedia 2026 Grand Challenge.
+
+<p align="center">
+  <img src="assets/affectiveart-2026-second-place-certificate.png" alt="AffectiveArt 2026 Track 2 Second Place Certificate" width="720">
+</p>
 
 ## Authors
 
@@ -57,8 +64,20 @@ Start a new Codex session after installation.
 
 ### 2. Train the Auxiliary Model
 
-Prepare label files and aligned NPZ features containing `x` and `image_ids`,
-then train the multi-feature fusion classifier:
+Prepare label files and aligned NPZ features containing `x` and `image_ids`.
+The included feature extractor supports torchvision, Hugging Face, and timm
+vision models:
+
+```bash
+python3 code/feature_extraction/extract_image_features.py \
+  --manifest-jsonl data/train.jsonl \
+  --output data/features/train/dinov2.npz \
+  --backend huggingface \
+  --model facebook/dinov2-large
+```
+
+See `code/feature_extraction/README.md` for the manifest contract and other
+backends. Then train the multi-feature fusion classifier:
 
 ```bash
 python3 code/multifeature_fusion/train_multifeature_fusion.py \
@@ -90,6 +109,15 @@ python3 code/multifeature_fusion/predict_multifeature_fusion.py \
 ```
 
 ### 3. Generate Few-Shot References
+
+The complete retrieval sequence can be configured and run with:
+
+```bash
+python3 code/knowledge_retrieval_pipeline/run_retrieval_pipeline.py \
+  --config configs/retrieval.example.json
+```
+
+The equivalent individual commands are shown below.
 
 Retrieve neighbors with CLIP-H/14, CLIP-L/14, and DINOv3:
 

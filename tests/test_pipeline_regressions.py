@@ -45,9 +45,57 @@ runner = load_module(
     "test_run_inference",
     PROJECT_ROOT / "code/final_inference/run_inference.py",
 )
+extractor = load_module(
+    "test_extract_image_features",
+    PROJECT_ROOT / "code/feature_extraction/extract_image_features.py",
+)
+retrieval_pipeline = load_module(
+    "test_run_retrieval_pipeline",
+    PROJECT_ROOT / "code/knowledge_retrieval_pipeline/run_retrieval_pipeline.py",
+)
 
 
 class PipelineRegressionTests(unittest.TestCase):
+    def test_feature_manifest_resolves_relative_paths(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            manifest = root / "manifest.jsonl"
+            manifest.write_text(
+                json.dumps({"image_id": "sample", "local_image_path": "images/sample.jpg"})
+                + "\n",
+                encoding="utf-8",
+            )
+            rows = extractor.read_manifest(manifest)
+            self.assertEqual(rows[0]["_image_id"], "sample")
+            self.assertEqual(
+                extractor.resolve_image_path(manifest, rows[0]["_image_path"]),
+                root / "images/sample.jpg",
+            )
+
+    def test_feature_manifest_rejects_duplicate_ids(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            manifest = Path(tmp) / "manifest.jsonl"
+            manifest.write_text(
+                "\n".join(
+                    [
+                        json.dumps({"image_id": "same", "image_path": "a.jpg"}),
+                        json.dumps({"image_id": "same", "image_path": "b.jpg"}),
+                    ]
+                )
+                + "\n",
+                encoding="utf-8",
+            )
+            with self.assertRaisesRegex(SystemExit, "duplicate image ids"):
+                extractor.read_manifest(manifest)
+
+    def test_retrieval_config_builds_three_retrievals_and_consensus(self):
+        config_path = PROJECT_ROOT / "configs/retrieval.example.json"
+        config = retrieval_pipeline.load_config(config_path)
+        commands = retrieval_pipeline.build_commands(config_path, config)
+        self.assertEqual(len(commands), 4)
+        self.assertTrue(all("retrieve_references.py" in command[1] for command in commands[:3]))
+        self.assertIn("build_reference_consensus.py", commands[3][1])
+
     def test_default_inference_output_is_results_json_only(self):
         old_argv = sys.argv
         try:
