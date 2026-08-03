@@ -7,10 +7,7 @@ Evidence-grounded emotion understanding for artwork.
 
 ## 📢 News
 
-🥈🥈🥈 We won **second place** in Track 2: Multidimensional Art Emotion
-Understanding of the
-[AffectiveArt 2026 Challenge](https://affectiveart-challenge.github.io/),
-an ACM Multimedia 2026 Grand Challenge.
+🥈🥈🥈 We won the **second place** in the Understanding Track of the ACM MM26 Challenge [AffectiveArt](https://affectiveart-challenge.github.io/).
 
 <p align="center">
   <img src="assets/affectiveart-2026-second-place-certificate.png" alt="AffectiveArt 2026 Track 2 Second Place Certificate" width="720">
