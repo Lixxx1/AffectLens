@@ -5,14 +5,6 @@
 
 Evidence-grounded emotion understanding for artwork.
 
-## 📢 News
-
-🥈🥈🥈 We won the **second place** in the Understanding Track of the ACM MM26 Challenge [AffectiveArt](https://affectiveart-challenge.github.io/).
-
-<p align="center">
-  <img src="assets/affectiveart-2026-second-place-certificate.png" alt="AffectiveArt 2026 Track 2 Second Place Certificate" width="720">
-</p>
-
 ## Authors
 
 * [Xiaodong Lin](https://github.com/Lixxx1)<sup>1</sup>,
@@ -23,6 +15,14 @@ Evidence-grounded emotion understanding for artwork.
   and [Fei Ma](https://github.com/GML-MMGroup)<sup>3</sup>
 * <sup>1</sup>[Sun Yat-sen University](https://www.sysu.edu.cn/sysuen/), <sup>2</sup>Independent Researcher,
   and <sup>3</sup>[Guangming Laboratory](https://www.gml.ac.cn/)
+
+## 📢 News
+
+🥈🥈🥈 We won the **second place** in the Understanding Track of the ACM MM26 Challenge [AffectiveArt](https://affectiveart-challenge.github.io/).
+
+<p align="center">
+  <img src="assets/affectiveart-2026-second-place-certificate.png" alt="AffectiveArt 2026 Track 2 Second Place Certificate" width="720">
+</p>
 
 ## 🗺️ Overview
 
